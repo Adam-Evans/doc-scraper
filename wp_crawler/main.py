@@ -4,8 +4,8 @@ import json
 import os
 from urllib.parse import urljoin, urlparse
 
-START_URL = "https://www.auto-trail.co.uk/"
-DOMAIN = "auto-trail.co.uk"
+START_URL = "https://www.my-site.co.uk/"
+DOMAIN = "my-site.co.uk"
 OUTPUT_DIR = "crawled_json"
 
 visited = set()
